@@ -1,0 +1,22 @@
+name: georouter
+description: A package for getting directions between points using the Open
+  Source Routing Machine (OSRM) API. Supports multiple travel modes, including
+  driving, walking, cycling, and transit.
+version: 0.0.1
+homepage: https://github.com/ahmedsaleh210/geo_router
+repository: https://github.com/ahmedsaleh210/geo_router.git
+license: MIT
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
