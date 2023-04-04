@@ -1,6 +1,6 @@
 # GeoRouter
 
-[![pub package](https://img.shields.io/pub/v/georouter.svg)](https://pub.dev/packages/geocoding_resolver)
+[![pub package](https://img.shields.io/pub/v/georouter.svg)](https://pub.dev/packages/georouter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![stars](https://img.shields.io/github/stars/ahmedsaleh210/georouter)
 
@@ -15,7 +15,7 @@ Features:
 
 ## Getting Started
 1. Add the following to your pubspec.yaml file:
-In your pubspec.yaml file, add the following dependency:
+   In your pubspec.yaml file, add the following dependency:
 ```yaml
 dependencies:
   georouter: <lastest>
