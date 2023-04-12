@@ -7,7 +7,6 @@
 GeoRouter is a Flutter package that provides an easy-to-use API to request directions between points using OpenStreetMap Route Service Machine (OSRM).
 
 ## Features
-Features:
 
 - Request directions between two or more points using different travel modes (driving, walking, cycling, or transit).
 - Decode polylines returned by OSRM into a list of latitude/longitude points.
