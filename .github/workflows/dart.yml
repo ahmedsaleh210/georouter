@@ -25,7 +25,9 @@ jobs:
         uses: subosito/flutter-action@v2
 
       - name: Install dependencies
-        run: flutter pub get
+        run: |
+          flutter pub get
+          dart pub add --dev test
 
       - name: Analyze project source
         run: dart analyze
