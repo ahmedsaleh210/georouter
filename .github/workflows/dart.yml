@@ -23,6 +23,11 @@ jobs:
 
       - name: Set up Flutter SDK
         uses: subosito/flutter-action@v2
+        
+      - name: Clear Flutter and Dart caches
+        run: |
+          flutter clean
+          flutter pub cache repair
 
       - name: Install dependencies
         run: flutter pub get
